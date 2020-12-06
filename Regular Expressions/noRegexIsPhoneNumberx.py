@@ -1,4 +1,5 @@
 # A function used to detect a phone number within a string
+# Not using regular expression
 def isPhoneNumber(text):
     if len(text) != 12:
         return False # not phone number-sized
