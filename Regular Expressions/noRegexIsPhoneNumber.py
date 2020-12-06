@@ -19,7 +19,7 @@ def isPhoneNumber(text):
     return True
 
 # Test function
-message = 'Call me 415-555-1011 tomorrow, or at 415-555-999 for my office line';
+message = 'Call me 415-555-1011 tomorrow, or at 415-555-9999 for my office line';
 foundNumber = False
 for i in range(len(message)):
     chunk = message[i:i+12]
