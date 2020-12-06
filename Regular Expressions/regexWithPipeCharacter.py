@@ -14,7 +14,7 @@ print(mo.group())
 message = 'Batmobile lost a wheel, Batcopter is not a chopper, his name is Batman, not Batbat'
 
 # To find every pattern provided in the regular expession
-# Print a list containing all the pattern found
+# Print a list containing all the patterns found
 print(batRegex.findall(message))
 
 # To find an occurence of any of the patterns provided in the regex
