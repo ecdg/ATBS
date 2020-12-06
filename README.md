@@ -1,2 +1,2 @@
 # ATBS
-ATBS exercises by Al Sweigart
+Automate the Boring Stuff with Python exercises by Al Sweigart
