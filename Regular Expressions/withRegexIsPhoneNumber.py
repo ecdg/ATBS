@@ -2,7 +2,7 @@
     within a string using regular expression '''
 import re
 
-message = 'Call me 415-555-1011 tomorrow, or at 415-555-9999 for my office line';
+message = 'Call me 415-555-1011 tomorrow, or at 415-555-9999 for my office line'
 
 # Create regular expression object
 # To identify the pattern
