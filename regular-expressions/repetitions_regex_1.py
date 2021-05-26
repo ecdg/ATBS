@@ -3,12 +3,12 @@ import re
 # 'wo' can appear once or never appears
 bat_regex = re.compile(r'Bat(wo)?man')
 
-mo = bat_regex.search('The Adventures of Batman')
-print(mo.group())
+match_object = bat_regex.search('The Adventures of Batman')
+print(match_object.group())
 
-mo = bat_regex.search('The Adventures of Batwoman')
-print(mo.group())
+match_object = bat_regex.search('The Adventures of Batwoman')
+print(match_object.group())
 
-mo = bat_regex.search('The Adventures of Batwowowowoman')
-if mo == None:
+match_object = bat_regex.search('The Adventures of Batwowowowoman')
+if match_object == None:
     print('Batwowowowoman pattern is not found')
